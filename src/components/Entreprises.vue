@@ -9,14 +9,14 @@
       <li class="navbar-item">
         <router-link to="/Profil" class="nav-link">Mon Profil</router-link>
       </li>
-      <li class="navbar-item active">
-        <router-link to="/" class="nav-link">Mes Stages</router-link>
+      <li class="navbar-item">
+        <router-link to="/Stages" class="nav-link">Mes Stages</router-link>
       </li>
       <li class="navbar-item ">
         <router-link to="/Offres" class="nav-link">Offres</router-link>
       </li>
-      <li class="navbar-item ">
-        <router-link to="/Entreprises" class="nav-link">Entreprises</router-link>
+      <li class="navbar-item active ">
+        <router-link to="/" class="nav-link">Entreprises</router-link>
       </li>
       </ul>
     </nav>
@@ -24,10 +24,10 @@
 </template>
 <script>
 export default {
-  name: 'Stages',
+  name: 'Entreprises',
   data () {
     return {
-      msg: 'Voici tous les stages'
+      msg: 'Voici les entreprises'
     }
   }
 }

@@ -4,6 +4,7 @@ import Board from '@/components/Board'
 import Offres from '@/components/Offres'
 import Profil from '@/components/Profil'
 import Stages from '@/components/Stages'
+import Entreprises from '@/components/Entreprises'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/Stages',
       name: 'Stages',
       component: Stages
+    },
+    {
+      path: '/Entreprises',
+      name: 'Entreprises',
+      component: Entreprises
     }
   ]
 })

@@ -1,95 +1,32 @@
-
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <ul>
-      <li>
-        <a
-          href="https://vuejs.org"
-          target="_blank"
-        >
-          Core Docs
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://forum.vuejs.org"
-          target="_blank"
-        >
-          Forum
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://chat.vuejs.org"
-          target="_blank"
-        >
-          Community Chat
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://twitter.com/vuejs"
-          target="_blank"
-        >
-          Twitter
-        </a>
-      </li>
-      <br>
-      <li>
-        <a
-          href="http://vuejs-templates.github.io/webpack/"
-          target="_blank"
-        >
-          Docs for This Template
-        </a>
-      </li>
-    </ul>
-    <h2>Ecosystem</h2>
-    <ul>
-      <li>
-        <a
-          href="http://router.vuejs.org/"
-          target="_blank"
-        >
-          vue-router
-        </a>
-      </li>
-      <li>
-        <a
-          href="http://vuex.vuejs.org/"
-          target="_blank"
-        >
-          vuex
-        </a>
-      </li>
-      <li>
-        <a
-          href="http://vue-loader.vuejs.org/"
-          target="_blank"
-        >
-          vue-loader
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/awesome-vue"
-          target="_blank"
-        >
-          awesome-vue
-        </a>
-      </li>
-    </ul>
+  <div id="app">
+    <nav class="navbar navbar-expand-lg">
+      <ul>
+        <li class="navbar-item">
+          <router-link to="/Board" class="nav-link">Mon Tableau de Bord</router-link>
+        </li>
+        <li class="navbar-item active">
+          <router-link to="/" class="nav-link">Mon Profil</router-link>
+        </li>
+        <li class="navbar-item">
+          <router-link to="/Stages" class="nav-link">Mes Stages</router-link>
+        </li>
+        <li class="navbar-item active ">
+          <router-link to="/Offres" class="nav-link">Offres</router-link>
+        </li>
+        <li class="navbar-item ">
+          <router-link to="/Entreprises" class="nav-link">Entreprises</router-link>
+        </li>
+      </ul>
+    </nav>
   </div>
 </template>
-
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Profil',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Voici mon profil'
     }
   }
 }
