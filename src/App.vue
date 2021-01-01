@@ -1,14 +1,16 @@
 <template>
-  <div class="container">
 
-    <b-navbar toggleable="md" type="light" variant="white">
+  <div class="container-fluid">
 
+    <b-navbar toggleable="lg" type="light" variant="white">
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-      <a class="navbar-brand" href="#">
-        <img src="./assets/logosbs.svg" alt="">
-      </a>
 
 
+      <b-navbar-brand>
+        <router-link to="/" class="nav-link">
+        <img src="./assets/logosbs.svg" alt="" width="50%">
+        </router-link>
+      </b-navbar-brand>
       <b-collapse is-nav id="nav_collapse" >
 
         <b-navbar-nav class = "ml-auto">
@@ -57,11 +59,25 @@ export default {
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Poppins',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
   margin-top: 60px;
 }
 
+@media (max-width: 768px) {
+  body > div > nav > button {
+    margin-left: 280px;
+  }
+  .navbar-toggler{
+    border: none;
+  }
+  #nav_collapse{
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+  }
+
+}
 </style>

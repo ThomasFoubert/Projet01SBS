@@ -6,6 +6,10 @@ import Offres from '@/components/Offres'
 import Profil from '@/components/Profil'
 import Stages from '@/components/Stages'
 import Entreprises from '@/components/Entreprises'
+import ModifProfil from '@/components/ModifProfil'
+import ConnexionEtudiant from "@/components/ConnexionEtudiant";
+import Ajoutoffre from "../components/Ajoutoffre";
+
 
 Vue.use(Router)
 
@@ -40,6 +44,21 @@ export default new Router({
       path: '/Entreprises',
       name: 'Entreprises',
       component: Entreprises
+    },
+    {
+      path: '/ModificationProfil',
+      name: 'ModifProfil',
+      component: ModifProfil
+    },
+    {
+      path: '/Connexionetudiant',
+      name: 'Connexionetudiant',
+      component: ConnexionEtudiant
+    },
+    {
+      path: '/Ajoutoffre',
+      name: 'Ajoutoffre',
+      component: Ajoutoffre
     }
   ]
 })

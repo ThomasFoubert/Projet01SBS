@@ -12,8 +12,12 @@
           <p class="blockquote">Plateforme dédiée uniquement à l'IUT de <br> Belfort-Montbéliard</p>
 
           <div class="buttonaccueil d-flex flex-column justify-content-lg-between w-lg-50 justify-content-center m-5">
-            <button class="btnaccueil p-3 btn-primary"><a class="text-decoration-none text-white" href="#">MEMBRE
-              DE L'IUT</a></button>
+            <button class="btnaccueil p-3 btn-primary"><a class="text-decoration-none text-white" href="#">
+              <router-link to="/ConnexionEtudiant" class="nav-link">
+                MEMBRE
+                DE L'IUT
+              </router-link>
+             </a></button>
             <br>
             <button class="btnaccueil p-3 btn-primary "><a class="text-decoration-none text-white"
                                                            href="#">ENTREPRISE</a>
@@ -40,6 +44,7 @@ export default {
 </script>
 
 <style scoped>
+
 .imgaccueil {
   width: 55%;
 }
@@ -76,5 +81,51 @@ h3 {
 body > div > nav{
   display: none;
 }
+p {
+  font-family: Poppins, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+
+  .img {
+    display: none;
+  }
+
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .choix h3 {
+    text-align: center;
+    font-size: 12px;
+    line-height: 30px;
+    width: 80%;
+    margin-left: 9%;
+  }
+
+  .blockquote {
+    display: none;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+}
+
 
 </style>

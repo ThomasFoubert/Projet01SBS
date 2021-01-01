@@ -4,8 +4,13 @@
     <form class="pageprofil d-flex justify-content-left flex-column w-lg-50 m-lg-5 m-2">
 
       <div>
-        <button type="submit" class=" btnprofil btn text-white pl-lg-5 pr-lg-5 pt-lg-3 pb-lg-3 mt-lg-3 mb-lg-5 justify-content-center"><a
-          class="text-white" href="#">Modifier mon profil</a></button>
+
+        <button type="submit"
+                class=" btnprofil btn text-white pl-lg-5 pr-lg-5 pt-lg-3 pb-lg-3 mt-lg-3 mb-lg-5 justify-content-center">
+          <router-link to="/ModificationProfil" class="nav-link">
+            Modifier mon profil</router-link>
+        </button>
+
       </div>
 
       <div class="subtitles">
@@ -13,7 +18,7 @@
       </div>
       <div class="mt-lg-4 d-flex flex-row ">
         <div class="form-group mr-lg-3 w-50">
-          <label >NOM </label>
+          <label>NOM </label>
           <p class="pprofil">Khadija</p>
         </div>
 
@@ -139,7 +144,7 @@
 <script>
 export default {
   name: 'Profil',
-  data () {
+  data() {
     return {
       msg: 'Voici mon profil'
     }
@@ -173,18 +178,21 @@ export default {
   font-size: 40px; /*Tu peux changer ici*/
   width: 70px;
 }
+
 form .btn {
   background-color: #1D3557;
   font-family: Poppins, sans-serif;
   font-weight: 600;
 
 }
+
 p {
   font-family: Poppins, sans-serif;
 }
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 a:hover {
@@ -194,6 +202,7 @@ a:hover {
 button:hover {
   opacity: 0.5;
 }
+
 h1, h3 {
   font-family: 'Fredoka One', cursive;
   letter-spacing: 0.2em;
