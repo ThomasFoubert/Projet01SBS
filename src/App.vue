@@ -4,9 +4,10 @@
     <b-navbar toggleable="md" type="light" variant="white">
 
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-        <b-navbar-brand>
-          <img src="./assets/logosbs.svg" alt="">
-        </b-navbar-brand>
+      <a class="navbar-brand" href="#">
+        <img src="./assets/logosbs.svg" alt="">
+      </a>
+
 
       <b-collapse is-nav id="nav_collapse" >
 

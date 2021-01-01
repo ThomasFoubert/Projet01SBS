@@ -6,7 +6,6 @@ import Offres from '@/components/Offres'
 import Profil from '@/components/Profil'
 import Stages from '@/components/Stages'
 import Entreprises from '@/components/Entreprises'
-import Nonavfooter from "../layout/Nonavfooter";
 
 Vue.use(Router)
 

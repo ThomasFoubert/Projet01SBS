@@ -1,6 +1,7 @@
 <template>
-  <div class="bodyaccueil">
+  <div id="app">
 
+  <div class="bodyaccueil">
     <div class="container">
       <div class="accueil d-flex justify-content-center">
 
@@ -28,6 +29,7 @@
       </div>
 
     </div>
+  </div>
   </div>
 </template>
 
@@ -75,7 +77,4 @@ body > div > nav{
   display: none;
 }
 
-#app{
-  display: none;
-}
 </style>
