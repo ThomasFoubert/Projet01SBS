@@ -1,7 +1,7 @@
 
 <template>
   <div id="app">
-    {{msg}}
+    {{info}}
   </div>
 </template>
 <script>
@@ -13,6 +13,19 @@ export default {
     }
   }
 }
+new Vue({
+  el: '#app',
+  data () {
+    return {
+      info: null
+    }
+  },
+  mounted () {
+    axios
+      .get('https://entreprise.data.gouv.fr/api/sirene/v3/etablissements/')
+      .then(response => (this.info = response))
+  }
+})
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
