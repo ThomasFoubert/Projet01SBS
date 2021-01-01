@@ -22,7 +22,7 @@ new Vue({
   },
   mounted () {
     axios
-      .get('https://entreprise.data.gouv.fr/api/sirene/v3/etablissements/')
+      .get('https://api.coindesk.com/v1/bpi/currentprice.json')
       .then(response => (this.info = response))
   }
 })
