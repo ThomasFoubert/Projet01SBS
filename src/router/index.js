@@ -1,10 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import Accueil from '@/components/Accueil'
 import Board from '@/components/Board'
 import Offres from '@/components/Offres'
 import Profil from '@/components/Profil'
 import Stages from '@/components/Stages'
 import Entreprises from '@/components/Entreprises'
+import Nonavfooter from "../layout/Nonavfooter";
 
 Vue.use(Router)
 
@@ -12,6 +14,11 @@ export default new Router({
   routes: [
     {
       path: '/',
+      name: 'Accueil',
+      component: Accueil
+    },
+    {
+      path: '/Board',
       name: 'Board',
       component: Board
     },

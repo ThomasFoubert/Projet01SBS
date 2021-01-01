@@ -1,24 +1,50 @@
 <template>
-  <div id="app">
-    <img id="logo" src="./assets/logo.svg">
-    <nav class="navbar navbar-expand-lg">
-        <li class="navbar-item active">
-        <router-link to="/Board" class="nav-link">Mon Tableau de Bord</router-link>
-      </li>
-      <li class="navbar-item">
-        <router-link to="/Profil" class="nav-link">Mon Profil</router-link>
-      </li>
-      <li class="navbar-item">
-        <router-link to="/Stages" class="nav-link">Mes Stages</router-link>
-      </li>
-      <li class="navbar-item ">
-        <router-link to="/Offres" class="nav-link">Offres</router-link>
-      </li>
-      <li class="navbar-item ">
-        <router-link to="/Entreprises" class="nav-link">Entreprises</router-link>
-      </li>
-    </nav>
+  <div class="container">
+
+    <b-navbar toggleable="md" type="light" variant="white">
+
+      <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
+        <b-navbar-brand>
+          <img src="./assets/logosbs.svg" alt="">
+        </b-navbar-brand>
+
+      <b-collapse is-nav id="nav_collapse" >
+
+        <b-navbar-nav class = "ml-auto">
+          <b-nav-item>
+            <router-link to="/Board" class="nav-link text-dark">
+              Mon Tableau de Bord
+            </router-link>
+
+          </b-nav-item>
+
+          <b-nav-item>
+            <router-link to="/Profil" class="nav-link text-dark">
+              Mon Profil
+            </router-link>
+          </b-nav-item>
+
+          <b-nav-item>
+            <router-link to="/Offres" class="nav-link text-dark">
+              Offres
+            </router-link>
+          </b-nav-item>
+
+          <b-nav-item>
+            <router-link to="/Entreprises" class="nav-link text-dark">
+              Entreprises
+            </router-link>
+          </b-nav-item>
+
+        </b-navbar-nav>
+
+      </b-collapse>
+
+
+    </b-navbar>
+
     <router-view/>
+
   </div>
 </template>
 
@@ -36,9 +62,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-#logo{
-  height: 50px;
-  text-align: left;
-  margin-left: 5%;
-}
+
 </style>
