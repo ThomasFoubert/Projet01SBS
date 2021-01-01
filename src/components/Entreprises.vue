@@ -1,6 +1,7 @@
 
 <template>
   <div id="app">
+    {{msg}}
   </div>
 </template>
 <script>
