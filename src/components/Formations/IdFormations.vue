@@ -1,25 +1,15 @@
 
 <template>
   <div id="app">
-<<<<<<< Updated upstream
     {{msg}}
-=======
->>>>>>> Stashed changes
   </div>
 </template>
 <script>
 export default {
-<<<<<<< Updated upstream
   name: 'IDFormations',
   data () {
     return {
       msg: 'Je veux afficher une formation selon son id '
-=======
-  name: 'Offres',
-  data () {
-    return {
-      msg: 'Voici toutes les offres'
->>>>>>> Stashed changes
     }
   }
 }
