@@ -1,24 +1,18 @@
 
 <template>
   <div id="app">
-    {{info}}
+    {{msg}}
   </div>
 </template>
 <script>
 export default {
-  name: 'Entreprises',
+  name: 'IDFormations',
   data () {
     return {
-      info: null
+      msg: 'Je veux afficher une formation selon son id '
     }
-  },
-  mounted () {
-    JSON
-      .get('https://api.coindesk.com/v1/bpi/currentprice.json')
-      .then(response => (this.info = response))
   }
 }
-
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

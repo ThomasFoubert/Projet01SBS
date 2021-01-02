@@ -3,6 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
 
 
 // Import de Bootstrap-vue
@@ -13,9 +15,8 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 // Utilisation de Bootstrap-vue
 Vue.use(BootstrapVue);
-
 Vue.config.productionTip = false
-
+Vue.use(VueAxios, axios)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

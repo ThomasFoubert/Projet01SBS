@@ -1,40 +1,32 @@
-
 <template>
   <div id="app">
-    {{info}}
+
+    <ul>
+      <li>
+        {{posts}}  </li>
+    </ul>
   </div>
+
+
 </template>
+
 <script>
 export default {
   name: 'Entreprises',
-  data () {
+  data() {
     return {
-      info: null
+      posts: [0
+      ]
     }
   },
-  mounted () {
-    JSON
-      .get('https://api.coindesk.com/v1/bpi/currentprice.json')
-      .then(response => (this.info = response))
+
+  mounted() {
+
+    axios.get('https://entreprise.data.gouv.fr/api/sirene/v3/etablissements/')
+      .then(response=>this.posts=response.data)
   }
-}
 
+}
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
 </style>
