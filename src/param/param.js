@@ -8,7 +8,7 @@ export default{
 
     idEtudiant : host + '/etudiant/{id}...',
     allEtudiant : host + '/all/etudiant...',
-    updateEtudiant : host + '/etudiant/{id}/modification...',
+    modifEtudiant : host + '/etudiant/{id}/modification...',
 
     idFormation : host + '/formation/:id...',
     allFormation : host + '/all/formation...',
