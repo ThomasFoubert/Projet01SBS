@@ -1,27 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="386ca8dd-5a1b-4eda-be06-da1483774184" name="Default Changelist" comment="">
+    <list default="true" id="d099b19f-d48b-49af-99f7-0b2031fd3aca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/UPGRADE_GUIDE.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/UPGRADE_GUIDE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/dist/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/dist/axios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/dist/axios.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/dist/axios.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/adapters/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/adapters/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/adapters/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/adapters/http.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/adapters/xhr.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/adapters/xhr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/axios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/cancel/Cancel.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/cancel/Cancel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/cancel/CancelToken.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/cancel/CancelToken.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/cancel/isCancel.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/cancel/isCancel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/core/Axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/core/Axios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/core/InterceptorManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/core/InterceptorManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/core/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/core/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/core/buildFullPath.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/core/buildFullPath.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/core/createError.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/core/createError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/core/dispatchRequest.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/core/dispatchRequest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/core/enhanceError.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/core/enhanceError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/core/mergeConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/core/mergeConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/core/settle.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/core/settle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/core/transformData.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/core/transformData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/defaults.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/defaults.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/helpers/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/helpers/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/helpers/bind.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/helpers/bind.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/helpers/buildURL.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/helpers/buildURL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/helpers/combineURLs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/helpers/combineURLs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/helpers/cookies.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/helpers/cookies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/helpers/deprecatedMethod.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/helpers/deprecatedMethod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/helpers/isAbsoluteURL.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/helpers/isAbsoluteURL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/helpers/isAxiosError.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/helpers/isAxiosError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/helpers/isURLSameOrigin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/helpers/isURLSameOrigin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/helpers/normalizeHeaderName.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/helpers/normalizeHeaderName.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/helpers/parseHeaders.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/helpers/parseHeaders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/helpers/spread.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/helpers/spread.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Entreprises.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Entreprises.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,17 +56,10 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Vue Single File Component" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1mSaszq9H3rdQy8MuK0pBzJDrYe" />
+  <component name="ProjectId" id="1mVgOg2CsTH6pjCavw5em6GdoQz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,46 +70,19 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Projet01SBS\src\components" />
-      <recent name="D:\Projet01SBS\src" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="386ca8dd-5a1b-4eda-be06-da1483774184" name="Default Changelist" comment="" />
-      <created>1609489656637</created>
+      <changelist id="d099b19f-d48b-49af-99f7-0b2031fd3aca" name="Default Changelist" comment="" />
+      <created>1609584141472</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1609489656637</updated>
-      <workItem from="1609489658284" duration="9092000" />
+      <updated>1609584141472</updated>
+      <workItem from="1609584142521" duration="6452000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609492682041">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1609492682041" />
-    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1609522127032">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609522127032" />
   </component>
 </project>

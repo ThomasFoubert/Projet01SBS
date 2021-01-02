@@ -1,16 +1,29 @@
-
 <template>
   <div id="app">
+<<<<<<< Updated upstream
     {{info}}
+=======
+
+<ul>
+  <li>
+   {{posts}}  </li>
+</ul>
+>>>>>>> Stashed changes
   </div>
+
+
 </template>
+
 <script>
 export default {
   name: 'Entreprises',
-  data () {
+    data() {
     return {
-      info: null
+      posts: [
+
+      ]
     }
+<<<<<<< Updated upstream
   },
   mounted () {
     JSON
@@ -18,23 +31,17 @@ export default {
       .then(response => (this.info = response))
   }
 }
+=======
+    },
+>>>>>>> Stashed changes
 
+mounted() {
+
+    axios.get('https://entreprise.data.gouv.fr/api/sirene/v3/etablissements/')
+  .then(response=>this.posts=response.data)
+    }
+
+}
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
 </style>
