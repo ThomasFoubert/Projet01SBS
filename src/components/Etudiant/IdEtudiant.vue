@@ -6,10 +6,10 @@
 </template>
 <script>
 export default {
-  name: 'ADDEntreprises',
+  name: 'IDEtudiant',
   data () {
     return {
-      msg : 'Je veux ajouter une entreprise',
+      msg : 'Je veux afficher un étudiant selon son id',
     }
   }
 }

@@ -6,14 +6,13 @@
 </template>
 <script>
 export default {
-  name: 'ALLEtudiant',
+  name: 'IDDepartement',
   data () {
     return {
-      msg: 'Je veux afficher tous les étudiants'
+      msg: 'Je veux afficher un département selon son ID'
     }
   }
 }
-
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

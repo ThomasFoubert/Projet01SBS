@@ -6,14 +6,13 @@
 </template>
 <script>
 export default {
-  name: 'ALLEtudiant',
+  name: 'ALLDepartement',
   data () {
     return {
-      msg: 'Je veux afficher tous les étudiants'
+      msg: 'Je veux afficher tous les departements de l IUT'
     }
   }
 }
-
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

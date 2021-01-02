@@ -1,14 +1,15 @@
 
 <template>
   <div id="app">
+    {{msg}}
   </div>
 </template>
 <script>
 export default {
-  name: 'Offres',
+  name: 'DEPIDDepFormations',
   data () {
     return {
-      msg: 'Voici toutes les offres'
+      msg: 'Je veux afficher les formations en fonction des départements'
     }
   }
 }
