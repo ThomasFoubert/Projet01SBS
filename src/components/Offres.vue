@@ -177,7 +177,78 @@
 
 
   </div>
+
+
 </template>
+<footer class="footer w-100">
+<div class="container p-5">
+  <div class="row">
+    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+      <h5 class="text-uppercase text-white mb-3">ENTREPRISE</h5>
+      <ul class="list-unstyled mb-0 flex-column d-flex">
+        <li>
+          <a href="#" class="text-white">Déposer une offre</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+      <h5 class="text-uppercase text-white mb-3 ">Étudiants</h5>
+
+      <ul class="list-unstyled flex-column d-flex">
+        <li>
+          <a href="#" class="text-white">S'inscrire</a>
+        </li>
+        <li>
+          <a href="#" class="text-white">Se connecter</a>
+        </li>
+        <li>
+          <a href="#" class="text-white">Ma promo</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+      <h5 class="text-uppercase text-white mb-3">Vous informer</h5>
+
+      <ul class="list-unstyled mb-0 flex-column d-flex">
+        <li>
+          <a href="#" class="text-white">Politique de confidentialité</a>
+        </li>
+        <li>
+          <a href="#" class="text-white">Mentions légales</a>
+        </li>
+        <li>
+          <a href="#" class="text-white">A propos</a>
+        </li>
+        <li>
+          <a href="#" class="text-white">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+      <ul class="list-unstyled mb-0 flex-column d-flex">
+        <li>
+          <div class="logofooter">
+            <img class="w-75" src="./static/logoiut.png" alt="">
+          </div>
+        </li>
+        <li>
+          <img class="w-50 ml-lg-2 mt-lg-2" src="./static/logommi.png" alt="">
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+<div class="text-center p-2 text-white ">
+  <p>Ce site a été réalisé dans un cadre pédagogique.</p>
+</div>
+</footer>
 <script>
 export default {
   name: 'Offres',

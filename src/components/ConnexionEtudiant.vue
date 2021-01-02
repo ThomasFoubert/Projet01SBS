@@ -18,7 +18,9 @@
             </div>
 
           </fieldset>
+          <router-link to="/Board" class="nav-link text-dark">
           <button type="submit" class="btn text-white pl-lg-4 pr-lg-4 mt-lg-3">Connexion</button>
+          </router-link>
         </form>
       </div>
     </div>
@@ -33,8 +35,6 @@ export default {
 </script>
 
 <style scoped>
-
-
 h2 {
   font-family: "Fredoka One", sans-serif;
   letter-spacing: 0.1em;
