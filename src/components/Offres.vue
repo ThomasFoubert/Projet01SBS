@@ -24,6 +24,10 @@
             </select>
           </div>
           <button type="submit" class="btn text-white mb-2">Valider</button>
+          <router-link to="/MotsCles/AllMotsCles" class="nav-link">
+            <button type="submit" class="btnpremier btn text-white"><a
+              href="#">Rechercher par mots cles</a></button>
+          </router-link>
 
         </form>
       </div>
@@ -36,7 +40,7 @@
             de
             stage et d'alternances dans divers domaines et entreprises. </p>
           <p class="text-center text-lg-left">Vous cherchez un stagiaire ? Déposez votre offre sur notre site.</p>
-          <router-link to="/Ajoutoffre" class="nav-link">
+          <router-link to="/Offres/AddOffres" class="nav-link">
             <button type="submit" class="btnpremier btn text-white"><a
               href="#">Ajouter une offre</a></button>
           </router-link>

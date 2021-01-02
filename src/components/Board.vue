@@ -145,7 +145,7 @@
                 <td></td>
               </tr>
             </table>
-            <a href="#">Voir plus ...</a>
+            <a href="./offres">Voir plus ...</a>
           </div>
         </div>
       </div>
