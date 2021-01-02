@@ -8,7 +8,7 @@ export default{
 
     idEtudiant : host + '/etudiant/{id}...',
     allEtudiant : host + '/all/etudiant...',
-    updateEtudiant : host + '/etudiant/{id}/modification...',
+    modifEtudiant : host + '/etudiant/{id}/modification...',
 
     idFormation : host + '/formation/:id...',
     allFormation : host + '/all/formation...',
@@ -17,10 +17,10 @@ export default{
     idDepartement : host + '/departement/:id...',
     allDepartement : host + '/all/departement...',
 
-    allMotsCles : host + '/all/motscle...',
+    allMotsCles : host + '/all/motscles...',
     depMotsCles : host + '/motscles/departements...',
     formidFormationMotsCles : host + '/all/motscles/formation/:formid...',
 
-    addAnnonce : host + '/annonce/add...',
-    allAnnonce : host + '/all/annonce...',
+    addOffres : host + '/annonce/add...',
+    allOffres : host + '/all/annonce...',
 }
