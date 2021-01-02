@@ -1,22 +1,17 @@
 
 <template>
   <div id="app">
-    {{info}}
+    {{msg}}
   </div>
 </template>
 <script>
 export default {
-  name: 'Entreprises',
+  name: 'SIRETEntreprises',
   data () {
     return {
-      info: null
+      msg: 'Je veux afficher une entreprise selon son numéro SIRET'
     }
   },
-  mounted () {
-    JSON
-      .get('https://api.coindesk.com/v1/bpi/currentprice.json')
-      .then(response => (this.info = response))
-  }
 }
 
 </script>

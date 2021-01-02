@@ -1,22 +1,17 @@
 
 <template>
   <div id="app">
-    {{info}}
+    {{msg}}
   </div>
 </template>
 <script>
 export default {
-  name: 'Entreprises',
+  name: 'ALLEntreprises',
   data () {
     return {
-      info: null
+      msg: 'Je veux afficher toutes les entreprises'
     }
   },
-  mounted () {
-    JSON
-      .get('https://api.coindesk.com/v1/bpi/currentprice.json')
-      .then(response => (this.info = response))
-  }
 }
 
 </script>
