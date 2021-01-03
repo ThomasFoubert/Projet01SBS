@@ -1,0 +1,333 @@
+/****************************GENERAL***************************/
+
+.connexion {
+    background-color: white;
+    width: 100%;
+}
+
+
+p {
+    font-family: Poppins, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+.nav-link{
+    font-family: Poppins,sans-serif;
+}
+
+/*Page d'accueil*/
+
+
+/***************Images**********************/
+.logo {
+    width: 15%;
+}
+
+.imgaccueil {
+    width: 55%;
+}
+
+
+/***************MON PROFIL**********************/
+/***************MON PROFIL**********************/
+
+.subtitles h5 {
+    font-family: "Poppins ExtraBold", sans-serif;
+    font-size: 25px;
+    color: #092F48;
+
+}
+
+.pageprofil label {
+    font-family: "Poppins SemiBold", sans-serif;
+    font-size: 15px;
+    color: #E63946;
+}
+
+.form-control {
+    font-family: "Poppins SemiBold", sans-serif;
+    font-size: 10px;
+    color: #092F48;
+}
+
+.input_icon {
+    color: #E63946;
+    font-size: 40px; /*Tu peux changer ici*/
+    width: 70px;
+}
+
+/***************Accueil**********************/
+
+.btnaccueil {
+    background-color: #1D3557;
+    border: #1D3557 solid 3px;
+}
+
+h1, h3 {
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 0.2em;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.blockquote {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    margin-bottom: 30px;
+}
+
+.buttonaccueil button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+
+}
+
+/****Page de connexion*******/
+
+h2 {
+    font-family: "Fredoka One", sans-serif;
+    letter-spacing: 0.1em;
+    color: #1D3557;
+}
+
+em {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.2em;
+}
+
+.pageprofil .form-group input {
+    border: #E63946 2px solid;
+}
+
+.formconnexion {
+    border: #E63946 2px solid;
+}
+
+form .btn {
+    background-color: #1D3557;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+
+}
+
+/********************Page TABLEAU DE BORD*********************/
+/********************Titre éléments complexes*********************/
+.titre {
+    background-color: #E63946;
+}
+.containersm {
+    display: none;
+}
+
+/********************Bloc de droite*********************/
+.paddingcarré {
+    border-spacing: 5px;
+}
+
+
+/********************Tableaux*********************/
+table {
+    border-collapse: separate;
+
+}
+
+th {
+    color: #E63946;
+    font-family: "Fredoka One", sans-serif;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+/********************Les deux blocs du haut*********************/
+
+.unevaleur {
+    border-spacing: 10px;
+}
+
+.profil {
+    box-shadow: 8px 8px 12px #FBE1E3;
+}
+
+.complexes {
+    background-color: #E63946;
+}
+
+.fondelements {
+    background-color: white;
+}
+
+.complexes .btn {
+    background-color: #1D3557;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+
+}
+
+.profil .btn {
+    background-color: #1D3557;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+.profil p {
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.profil {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h4 {
+    font-family: "Fredoka One", sans-serif;
+    font-size: 20px;
+    color: #1D3557;
+    margin-top: 5px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.promo {
+    border: 10px solid #E63946;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.profilspromos img {
+    width: 50px;
+    border: 1px solid black;
+}
+
+.promo a {
+    justify-content: left;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 25%;
+        margin: 6% 6% 6% 3%;
+    }
+
+    .img {
+        display: none;
+    }
+
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .choix h3 {
+        text-align: center;
+        font-size: 12px;
+        line-height: 30px;
+        width: 80%;
+        margin-left: 9%;
+    }
+
+    .blockquote {
+        display: none;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    /************* Page d'accueil****************/
+    .bodyaccueil {
+        background-color: #E63946;
+    }
+    .accueil{
+        margin-top: 35%;
+    }
+
+
+    /*******************Page profil ********************/
+    .h5 {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .btnprofil {
+        margin-bottom: 40px;
+        margin-left: 20%;
+    }
+
+    .bac label {
+        margin-right: 80px;
+    }
+
+    /****BOARD***/
+    i {
+        font-size: 30px;
+        margin: 10px;
+
+    }
+
+    .complexes {
+        padding: 10px;
+    }
+
+    .boardlg {
+        display: none;
+    }
+
+    .containersm {
+        display: block;
+    }
+
+}
+
+/*********************************************************ENTREPRISE********************************************************/
+
+/********************Offre de stage****************/
+
+.offredestage .btn {
+    background-color: #1D3557;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+
+}
+
+.offredestage {
+    font-family: Poppins, sans-serif;
+}
+
+.card-title {
+    color: #1D3557;
+    font-size: 25px;
+}
+
+/******Footer*********/
+
+.footer {
+    background-color: #1D3557;
+}

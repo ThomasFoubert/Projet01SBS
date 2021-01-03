@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,800;0,900;1,600&display=swap"
+          rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:ital,wght@0,400;0,500;0,600;0,800;0,900;1,600&display=swap"
+          rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>StageByStage</title>
+
+</head>
+<body>
+<header>
+    <nav>
+        <div class="logo m-lg-5">
+            <a href="../index.html"><img src="../img/logosbs.svg" alt="Stagebystage"></a>
+        </div>
+    </nav>
+</header>
+
+<h1 class="text-center">MODIFIER MON PROFIL</h1>
+<form class="pageprofil d-flex justify-content-left flex-column w-75 m-lg-5">
+    <div class="subtitles">
+        <h3 class="h5">Informations générales</h3>
+    </div>
+    <fieldset>
+        <div class="mt-lg-4 d-flex flex-row ">
+            <div class="form-group mr-lg-3 w-50">
+                <label for="nom">NOM </label>
+                <input type="text" name="user_name" placeholder="Identifiant" class="form-control p-lg-4">
+            </div>
+
+            <div class="form-group mb-lg-4 w-50">
+                <label for="prenom">PRÉNOM</label>
+                <input type="text" name="user_name" placeholder="Mot de passe" class="form-control p-lg-4">
+            </div>
+        </div>
+        <div class="form-group mb-lg-4 w-50">
+            <label for="promo">MA PROMO</label>
+            <input type="text" name="user_name" placeholder="Mot de passe" class="form-control p-lg-4">
+        </div>
+
+        <div class="form-group mb-lg-4 w-50">
+            <label for="datedenaissance">DATE DE NAISSANCE</label>
+            <input type="datetime-local" name="user_name" value="2011-08-19T13:45:00" placeholder="Mot de passe"
+                   class="form-control p-lg-4">
+        </div>
+
+        <div class="form-group mb-lg-4 w-50">
+            <label for="telephone">TÉLÉPHONE</label>
+            <input type="tel" name="user_name" placeholder="Numéro de téléphone" class="form-control p-lg-4">
+        </div>
+
+    </fieldset>
+
+
+    <div class="section2 mt-lg-5">
+        <div class="subtitles">
+            <h3 class="h5">Adresse</h3>
+        </div>
+        <fieldset class="d-flex flex-row">
+            <div class="separator mr-lg-5 ">
+                <div class="form-group mr-lg-3  w-100 mt-lg-4 ">
+                    <label for="adresse">Recherchez votre adresse</label>
+                    <input type="text" name="user_name" placeholder="Adresse" class="form-control p-lg-4">
+                </div>
+
+                <div class="form-group mb-lg-4">
+                    <label for="rue">RUE</label>
+                    <input type="text" name="user_name" placeholder="Rue" class="form-control p-lg-4">
+                </div>
+                <div class="form-group mb-lg-4">
+                    <label for="codepostal">CODE POSTAL</label>
+                    <input type="text" name="user_name" placeholder="Code Postal" class="form-control p-lg-4">
+                </div>
+
+                <div class="form-group mb-lg-4 ">
+                    <label for="pays">PAYS</label>
+                    <input type="datetime-local" name="user_name" value="2011-08-19T13:45:00" placeholder="Mot de passe"
+                           class="form-control p-lg-4">
+                </div>
+            </div>
+            <div class="geolocalisation d-flex flex-column">
+                <div>
+                    <button type="submit" class="btn text-white">Géolocaliser l'adresse</button>
+                </div>
+                <div id="map-container-google-1" class=" mt-lg-5 z-depth-1-half map-container" style="width: 1000px">
+                    <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0"
+                            style="border:0" allowfullscreen></iframe>
+                </div>
+
+            </div>
+
+        </fieldset>
+    </div>
+
+
+    <div class="section3 mt-lg-5">
+        <div class="subtitles">
+            <h3 class="h5">Parcours</h3>
+        </div>
+        <fieldset class="d-flex flex-row">
+            <div class="mt-lg-4 d-flex flex-row ">
+                <div class="form-group mr-lg-3 w-50">
+                    <label for="nom">BACCALAURÉAT</label>
+                    <input type="text" name="user_name" placeholder="Scientifique,Littéraire..." class="form-control p-lg-4">
+                </div>
+
+                <div class="form-group mb-lg-4 w-50">
+                    <label for="prenom">SPÉCIALITÉ</label>
+                    <input type="text" name="user_name" placeholder="SI,Maths..." class="form-control p-lg-4">
+                </div>
+            </div>
+        </fieldset>
+    </div>
+
+    <div class="section2 mt-lg-5">
+        <div class="subtitles">
+            <h3 class="h5">Réseaux sociaux</h3>
+        </div>
+        <fieldset>
+            <div class="mt-lg-4 d-flex flex-row ">
+                <div class="form-group mr-lg-3  w-100 mt-lg-5 d-flex flex-row justify-content-center align-items-center">
+                    <span class="input_icon"><i class="fab fa-facebook"></i></span>
+                    <input type="text" name="user_name" placeholder="" class="form-control p-lg-4">
+                </div>
+                <div class="form-group mr-lg-3  w-100 mt-lg-5 d-flex flex-row justify-content-center align-items-center">
+                    <span class="input_icon"><i class="fab fa-instagram"></i></span>
+                    <input type="text" name="user_name"  class="form-control p-lg-4">
+                </div>
+
+                <div class="form-group mr-lg-3  w-100 mt-lg-5 d-flex flex-row justify-content-center align-items-center">
+                    <span class="input_icon"><i class="fab fa-tumblr"></i></span>
+                    <input type="text" name="user_name"  class="form-control p-lg-4">
+                </div>
+
+                <div class="form-group mr-lg-3  w-100 mt-lg-5 d-flex flex-row justify-content-center align-items-center">
+                    <span class="input_icon"><i class="fab fa-linkedin-in"></i></span>
+                    <input type="text" name="user_name"  class="form-control p-lg-4">
+                </div>
+            </div>
+            <div class="mt-lg-4 d-flex flex-row ">
+                <div class="form-group mr-lg-3  w-100 mt-lg-5 d-flex flex-row justify-content-center align-items-center">
+                    <span class="input_icon"><i class="fab fa-pinterest"></i></span>
+                    <input type="text" name="user_name"  class="form-control p-lg-4">
+                </div>
+                <div class="form-group mr-lg-3  w-100 mt-lg-5 d-flex flex-row justify-content-center align-items-center">
+                    <span class="input_icon"><i class="fab fa-vimeo-v"></i></span>
+                    <input type="text" name="user_name"  class="form-control p-lg-4">
+                </div>
+
+                <div class="form-group mr-lg-3  w-100 mt-lg-5 d-flex flex-row justify-content-center align-items-center">
+                    <span class="input_icon"><i class="fab fa-flickr"></i></span>
+                    <input type="text" name="user_name" class="form-control p-lg-4">
+                </div>
+            </div>
+        </fieldset>
+    </div>
+    <div class="mt-lg-5">
+        <button type="submit" class="btn text-white pl-lg-5 pr-lg-5 pt-lg-3 pb-lg-3 mt-lg-3">Enregistrer</button>
+    </div>
+</form>
+
+<footer class="footer w-100">
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase text-white mb-3">ENTREPRISE</h5>
+                <ul class="list-unstyled mb-0 flex-column d-flex">
+                    <li>
+                        <a href="#!" class="text-white">Déposer une offre</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase text-white mb-3 ">Étudiants</h5>
+
+                <ul class="list-unstyled flex-column d-flex">
+                    <li>
+                        <a href="#!" class="text-white">S'inscrire</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white">Se connecter</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white">Ma promo</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase text-white mb-3">Vous informer</h5>
+
+                <ul class="list-unstyled mb-0 flex-column d-flex">
+                    <li>
+                        <a href="#!" class="text-white">Politique de confidentialité</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white">Mentions légales</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white">A propos</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+                <ul class="list-unstyled mb-0 flex-column d-flex">
+                    <li>
+                        <div class="logofooter">
+                        <img class="w-75" src="../img/logoiut.png" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <img class="w-50 ml-lg-2 mt-lg-2" src="../img/logommi.png" alt="">
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="text-center p-2 text-white ">
+        <p>Ce site a été réalisé dans un cadre pédagogique.</p>
+    </div>
+</footer>
+
+
+</body>
+</html>

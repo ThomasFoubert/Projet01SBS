@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bb9fee12-0424-4451-9636-7e9ef266e8d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Ajoutoffre.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ajoutoffre.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Board.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Board.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ConnexionEtudiant.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ConnexionEtudiant.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Entreprises.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Entreprises.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ModifProfil.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ModifProfil.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Offres.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Offres.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Offres/AddOffres.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Offres/AddOffres.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profil.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profil.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +54,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609599924235</updated>
-      <workItem from="1609599925492" duration="11653000" />
+      <workItem from="1609599925492" duration="12866000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1609611937753">

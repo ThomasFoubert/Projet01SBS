@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,800;0,900;1,600&display=swap"
+          rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:ital,wght@0,400;0,500;0,600;0,800;0,900;1,600&display=swap"
+          rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>StageByStage</title>
+
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white mt-3">
+        <div class="logosbs ml-4">
+            <a href="../index.html">
+                <img src="../img/logosbs.svg" alt="" width="50%">
+            </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link text-dark" href="../modual/board.html">Mon tableau de bord </a>
+                <a class="nav-item nav-link text-dark" href="profil.html">Mon profil</a>
+                <a class="nav-item nav-link text-dark" href="offre.html">Offres</a>
+                <a class="nav-item nav-link disabled " href="#">Entreprises</a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="container mt-5">
+    <div class="row m-3">
+
+        <div class="col-lg-4 offredestage mb-4">
+            <div class="card d-flex justify-content-center">
+                <div class="card-body">
+                    <h4 class="card-title">Indications</h4>
+                    <p class="card-text">L'offre d'emploi ou la proposition de stage s'effectue en remplissant le
+                        formulaire ci-contre.
+                    </p>
+
+                    <p class="card-text mt-2">
+                        Un mail de confirmation atteste votre proposition. L'équipe pédagogique examine votre
+                        requête. Si votre offre est retenue, une validation vous est transmise par mail.
+                    </p>
+                    <p class="card-text mt-2">
+                        Cette étape vous permet de disposer d'un numéro d'offre pour le suivi de votre demande.
+                    </p>
+
+                    <a href="#" class="btn text-white pl-lg-2 pr-lg-2 pt-lg-2 pb-lg-2 mt-lg-2">Contacter le responsable
+                        de stage </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-8">
+            <h2>Formulaire de soumission pour une offre de stage / emploi</h2>
+            <p>
+                Remplissez ce formulaire si vous souhaitez recherche un stagiaire ou un collaborateur.
+            </p>
+            <form>
+                <h4>Informations sur le poste</h4>
+                <div class="col-lg-4 p-0">
+                    <div class="form-group">
+                        <label for="typedoffre">Type d'offre</label>
+                        <select class="form-control" id="typedoffre">
+                            <option>Emploi</option>
+                            <option>Stage</option>
+                            <option>Alternance</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Description du poste</label>
+                    <textarea class="form-control" id="champdetexte"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="champdetexte2">Profil recherché</label>
+                    <textarea class="form-control" id="champdetexte2"></textarea>
+                </div>
+
+                <h4 class="mt-3">Informations sur la société</h4>
+                <div class="col-lg-4 p-0">
+                    <div class="form-group">
+                        <label>Nom de l'entreprise ou de la structure</label>
+                        <input type="text" name="user_name" placeholder="Nom de l'entreprise"
+                               class="form-control p-lg-4">
+                    </div>
+                    <div class="form-group">
+                        <label>Site web</label>
+                        <input type="text" name="user_name" placeholder="Nom de l'entreprise"
+                               class="form-control p-lg-4">
+                    </div>
+                    <div class="form-group">
+                        <label>Nom de la personne à contacter</label>
+                        <input type="text" name="user_name" placeholder="Nom de l'entreprise"
+                               class="form-control p-lg-4">
+                    </div>
+                    <div class="form-group">
+                        <label>Email de la personne à contacter</label>
+                        <input type="text" name="user_name" placeholder="Nom de l'entreprise"
+                               class="form-control p-lg-4">
+                    </div>
+                    <div class="form-group">
+                        <label>Description de la société</label>
+                        <textarea class="form-control" id="champdetexte"></textarea>
+                    </div>
+
+                </div>
+                <div class="mt-lg-5">
+                    <button type="submit" class="btn text-white pl-lg-5 pr-lg-5 pt-lg-3 pb-lg-3 mt-lg-3">Enregistrer
+                    </button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<footer class="footer w-100">
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase text-white mb-3">ENTREPRISE</h5>
+                <ul class="list-unstyled mb-0 flex-column d-flex">
+                    <li>
+                        <a href="#!" class="text-white">Déposer une offre</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase text-white mb-3 ">Étudiants</h5>
+
+                <ul class="list-unstyled flex-column d-flex">
+                    <li>
+                        <a href="#!" class="text-white">S'inscrire</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white">Se connecter</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white">Ma promo</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase text-white mb-3">Vous informer</h5>
+
+                <ul class="list-unstyled mb-0 flex-column d-flex">
+                    <li>
+                        <a href="#!" class="text-white">Politique de confidentialité</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white">Mentions légales</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white">A propos</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+                <ul class="list-unstyled mb-0 flex-column d-flex">
+                    <li>
+                        <div class="logofooter">
+                            <img class="w-75" src="../img/logoiut.png" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <img class="w-50 ml-lg-2 mt-lg-2" src="../img/logommi.png" alt="">
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="text-center p-2 text-white ">
+        <p>Ce site a été réalisé dans un cadre pédagogique.</p>
+    </div>
+</footer>
+
+
+</body>
+</html>

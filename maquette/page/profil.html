@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,800;0,900;1,600&display=swap"
+          rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:ital,wght@0,400;0,500;0,600;0,800;0,900;1,600&display=swap"
+          rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>StageByStage</title>
+
+</head>
+<body>
+<header> <nav class="navbar navbar-expand-lg navbar-light bg-white mt-3">
+    <div class="logosbs ml-4">
+        <a href="../index.html">
+            <img src="../img/logosbs.svg" alt="" width="50%">
+        </a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse">
+        <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link text-dark" href="../modual/board.html">Mon tableau de bord </a>
+            <a class="nav-item nav-link text-dark" href="profil.html">Mon profil</a>
+            <a class="nav-item nav-link text-dark" href="offre.html">Offres</a>
+            <a class="nav-item nav-link disabled " href="#">Entreprises</a>
+        </div>
+    </div>
+</nav>
+</header>
+
+<h1 class="text-center">MON PROFIL</h1>
+<form class="pageprofil d-flex justify-content-left flex-column w-lg-50 m-lg-5 m-2">
+
+    <div>
+        <button type="submit" class="btnprofil btn text-white pl-lg-5 pr-lg-5 pt-lg-3 pb-lg-3 mt-lg-3 mb-lg-5 justify-content-center"><a
+                class="text-white" href="modificationprofil.html">Modifier mon profil</a></button>
+    </div>
+
+    <div class="subtitles">
+        <h3 class="h5">Informations générales</h3>
+    </div>
+    <div class="mt-lg-4 d-flex flex-row ">
+        <div class="form-group mr-lg-3 w-50">
+            <label>NOM </label>
+            <p class="pprofil">Khadija</p>
+        </div>
+
+        <div class="form-group mb-lg-4 w-50">
+            <label for="prenom">PRÉNOM</label>
+            <p class="pprofil">Boudjemline</p>
+        </div>
+    </div>
+    <div class="form-group mb-lg-4 w-50">
+        <label for="promo">MA PROMO</label>
+        <p class="pprofil">2020-2021</p>
+    </div>
+
+    <div class="form-group mb-lg-4 w-50">
+        <label for="datedenaissance">DATE DE NAISSANCE</label>
+        <p class="pprofil">17/12/2001</p>
+    </div>
+
+    <div class="form-group mb-lg-4 w-50">
+        <label for="telephone">TÉLÉPHONE</label>
+        <p class="pprofil">07 83 56 47 80</p>
+    </div>
+
+
+    <div class="section2 mt-lg-5">
+        <div class="subtitles">
+            <h3 class="h5">Adresse</h3>
+        </div>
+        <fieldset>
+            <div class="separator mr-lg-5 ">
+                <div class="form-group mb-lg-4 mt-lg-4">
+                    <label for="rue">RUE</label>
+                    <p class="pprofil">17 rue Brigno</p>
+                </div>
+                <div class="form-group mb-lg-4">
+                    <label for="codepostal">CODE POSTAL</label>
+                    <p class="pprofil">25 000 </p>
+                </div>
+
+                <div class="form-group mb-lg-4 ">
+                    <label for="pays">PAYS</label>
+                    <p class="pprofil">France</p>
+                </div>
+            </div>
+            <div class="separator">
+                <div class="geolocalisation ">
+                    <div id="map-container-google-1" class=" mt-lg-5 z-depth-1-half map-container"
+                         style="width: 1000px">
+                        <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0"
+                                style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+
+
+    <div class="section3 mt-lg-5">
+        <div class="subtitles">
+            <h3 class="h5">Parcours</h3>
+        </div>
+        <fieldset class="bac d-flex flex-row">
+            <div class="mt-lg-4 d-flex flex-row ">
+                <div class="form-group mr-lg-5 w-50">
+                    <label for="nom">BACCALAURÉAT</label>
+                    <p class="pprofil">Général</p>
+                </div>
+
+                <div class="form-group mb-lg-4 w-50">
+                    <label for="prenom">SPÉCIALITÉ</label>
+                    <p class="pprofil">Scientifique</p>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+
+    <div class="section2 mt-lg-5">
+        <div class="subtitles">
+            <h3 class="h5">Réseaux sociaux</h3>
+        </div>
+        <fieldset>
+            <div class="mt-lg-4 d-flex flex-lg-row flex-column">
+                <div class="form-group mr-lg-3  w-lg-100 mt-lg-5 d-flex flex-lg-row  align-items-center">
+                    <span class="input_icon"><i class="fab fa-facebook"></i></span>
+                    <p class="pprofil">Facebook</p>
+                </div>
+                <div class="form-group mr-lg-3  w-100 mt-lg-5 d-flex flex-row align-items-center">
+                    <span class="input_icon"><i class="fab fa-instagram"></i></span>
+                    <p class="pprofil">Instagram</p>
+                </div>
+
+                <div class="form-group mr-lg-3  w-100 mt-lg-5 d-flex flex-row align-items-center">
+                    <span class="input_icon"><i class="fab fa-tumblr"></i></span>
+                    <p class="pprofil">Tumblr</p>
+                </div>
+
+                <div class="form-group mr-lg-3  w-100 mt-lg-5 d-flex flex-row  align-items-center">
+                    <span class="input_icon"><i class="fab fa-linkedin-in"></i></span>
+                    <p class="pprofil">LinkedIn</p>
+                </div>
+            </div>
+            <div class="mt-lg-4 d-flex flex-lg-row flex-column ">
+                <div class="form-group mr-lg-3  w-100 mt-lg-5 d-flex flex-row  align-items-center">
+                    <span class="input_icon"><i class="fab fa-pinterest"></i></span>
+                    <p class="pprofil">Pinterest</p>
+                </div>
+                <div class="form-group mr-lg-3  w-100 mt-lg-5 d-flex flex-row  align-items-center">
+                    <span class="input_icon"><i class="fab fa-vimeo-v"></i></span>
+                    <p class="pprofil">Vimeo</p>
+                </div>
+
+                <div class="form-group mr-lg-3  w-100 mt-lg-5 d-flex flex-row align-items-center">
+                    <span class="input_icon"><i class="fab fa-flickr"></i></span>
+                    <p class="pprofil">Flickr</p>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+
+
+</form>
+<footer class="footer w-100">
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase text-white mb-3">ENTREPRISE</h5>
+                <ul class="list-unstyled mb-0 flex-column d-flex">
+                    <li>
+                        <a href="#!" class="text-white">Déposer une offre</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase text-white mb-3 ">Étudiants</h5>
+
+                <ul class="list-unstyled flex-column d-flex">
+                    <li>
+                        <a href="#!" class="text-white">S'inscrire</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white">Se connecter</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white">Ma promo</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase text-white mb-3">Vous informer</h5>
+
+                <ul class="list-unstyled mb-0 flex-column d-flex">
+                    <li>
+                        <a href="#!" class="text-white">Politique de confidentialité</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white">Mentions légales</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white">A propos</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+                <ul class="list-unstyled mb-0 flex-column d-flex">
+                    <li>
+                        <div class="logofooter">
+                            <img class="w-75" src="../img/logoiut.png" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <img class="w-50 ml-lg-2 mt-lg-2" src="../img/logommi.png" alt="">
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="text-center p-2 text-white ">
+        <p>Ce site a été réalisé dans un cadre pédagogique.</p>
+    </div>
+</footer>
+
+</body>
+</html>
