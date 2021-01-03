@@ -6,13 +6,14 @@
 </template>
 <script>
 export default {
-  name: 'DEPIDDepFormations',
+  name: 'ALLEtudiant',
   data () {
     return {
-      msg: 'Je veux afficher les formations en fonction des départements'
+      msg: 'Je veux afficher tous les étudiants'
     }
   }
 }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

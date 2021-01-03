@@ -6,10 +6,10 @@
 </template>
 <script>
 export default {
-  name: 'DEPIDDepFormations',
+  name: 'IDDepartement',
   data () {
     return {
-      msg: 'Je veux afficher les formations en fonction des départements'
+      msg: 'Je veux afficher un département selon son ID'
     }
   }
 }

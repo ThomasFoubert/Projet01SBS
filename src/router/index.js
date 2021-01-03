@@ -8,7 +8,7 @@ import Stages from '@/components/Stages'
 import Entreprises from '@/components/Entreprises'
 import ModifProfil from '@/components/ModifProfil'
 import ConnexionEtudiant from "@/components/ConnexionEtudiant";
-import Ajoutoffre from "../components/Ajoutoffre";
+import AddOffres from "../components/Offres/AddOffres";
 
 
 Vue.use(Router)
@@ -56,9 +56,9 @@ export default new Router({
       component: ConnexionEtudiant
     },
     {
-      path: '/Ajoutoffre',
-      name: 'Ajoutoffre',
-      component: Ajoutoffre
+      path: '/AddOffres',      
+      name: 'AddOffres',   
+      component: AddOffres
     }
   ]
 })
