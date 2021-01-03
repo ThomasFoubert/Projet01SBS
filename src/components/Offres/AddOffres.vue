@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <template>
 <div id="app">
   <div class="row m-3">
@@ -95,6 +96,20 @@ export default {
   data () {
     return {
       msg: 'Je veux ajouter une offre'
+=======
+
+<template>
+  <div id="app">
+    {{msg}}
+  </div>
+</template>
+<script>
+export default {
+  name: 'ALLMotsCles',
+  data () {
+    return {
+      msg: 'Je veux afficher tous les mots cles'
+>>>>>>> main
     }
   }
 }

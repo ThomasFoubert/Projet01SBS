@@ -22,5 +22,9 @@ export default{
     formidFormationMotsCles : host + '/all/motscles/formation/:formid...',
 
     addOffres : host + '/annonce/add...',
+<<<<<<< HEAD
     Offres : host + '/all/annonce...',
+=======
+    allOffres : host + '/all/annonce...',
+>>>>>>> main
 }
