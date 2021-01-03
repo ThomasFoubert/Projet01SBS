@@ -40,7 +40,7 @@
             de
             stage et d'alternances dans divers domaines et entreprises. </p>
           <p class="text-center text-lg-left">Vous cherchez un stagiaire ? Déposez votre offre sur notre site.</p>
-          <router-link to="/Offres/AddOffres" class="nav-link">
+          <router-link to="./Offres/AddOffres" class="nav-link">
             <button type="submit" class="btnpremier btn text-white"><a
               href="#">Ajouter une offre</a></button>
           </router-link>
