@@ -15,7 +15,7 @@ export default {
   name: 'Entreprises',
   data() {
     return {
-      posts: [0
+      posts: [
       ]
     }
   },

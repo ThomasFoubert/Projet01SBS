@@ -144,6 +144,7 @@
       <button type="submit" class="btn text-white pl-lg-5 pr-lg-5 pt-lg-3 pb-lg-3 mt-lg-3">Enregistrer</button>
     </div>
   </form>
+
 </div>
 </template>
 

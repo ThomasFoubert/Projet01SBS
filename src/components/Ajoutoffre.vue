@@ -43,7 +43,7 @@
 
         <div class="form-group">
           <label>Description du poste</label>
-          <textarea class="form-control" id="champdetexte"></textarea>
+          <textarea class="form-control"></textarea>
         </div>
         <div class="form-group">
           <label for="champdetexte2">Profil recherché</label>
@@ -96,7 +96,6 @@ name: "Ajoutoffre"
 </script>
 
 <style scoped>
-
 
 .offredestage .btn {
   background-color: #1D3557;

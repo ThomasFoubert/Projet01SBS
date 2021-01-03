@@ -67,6 +67,9 @@ export default {
   margin-top: 60px;
 
 }
+.nav-link{
+  font-weight: 600;
+}
 @media (max-width: 768px) {
   body > div > nav > button {
     margin-left: 280px;

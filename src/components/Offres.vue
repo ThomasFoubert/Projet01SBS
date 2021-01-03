@@ -24,10 +24,6 @@
             </select>
           </div>
           <button type="submit" class="btn text-white mb-2">Valider</button>
-          <router-link to="/MotsCles/AllMotsCles" class="nav-link">
-            <button type="submit" class="btnpremier btn text-white"><a
-              href="#">Rechercher par mots cles</a></button>
-          </router-link>
 
         </form>
       </div>
@@ -40,14 +36,11 @@
             de
             stage et d'alternances dans divers domaines et entreprises. </p>
           <p class="text-center text-lg-left">Vous cherchez un stagiaire ? Déposez votre offre sur notre site.</p>
-<<<<<<< HEAD
-          <router-link to="./Offres/AddOffres" class="nav-link">
-=======
-          <router-link to="/Offres/AddOffres" class="nav-link">
->>>>>>> main
-            <button type="submit" class="btnpremier btn text-white"><a
-              href="#">Ajouter une offre</a></button>
-          </router-link>
+          <button type="submit" class="btnpremier btn text-white">
+            <router-link to="/Ajoutoffre" class="nav-link">
+              Ajouter une offre
+            </router-link>
+          </button>
         </div>
         <div class="deuxiemeform col-lg-3 offredestage mt-lg-5 mb-5">
           <form class="p-4">
@@ -182,81 +175,8 @@
       </div>
 
     </div>
-
-
   </div>
-
-
 </template>
-<footer class="footer w-100">
-<div class="container p-5">
-  <div class="row">
-    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-      <h5 class="text-uppercase text-white mb-3">ENTREPRISE</h5>
-      <ul class="list-unstyled mb-0 flex-column d-flex">
-        <li>
-          <a href="#" class="text-white">Déposer une offre</a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-      <h5 class="text-uppercase text-white mb-3 ">Étudiants</h5>
-
-      <ul class="list-unstyled flex-column d-flex">
-        <li>
-          <a href="#" class="text-white">S'inscrire</a>
-        </li>
-        <li>
-          <a href="#" class="text-white">Se connecter</a>
-        </li>
-        <li>
-          <a href="#" class="text-white">Ma promo</a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-      <h5 class="text-uppercase text-white mb-3">Vous informer</h5>
-
-      <ul class="list-unstyled mb-0 flex-column d-flex">
-        <li>
-          <a href="#" class="text-white">Politique de confidentialité</a>
-        </li>
-        <li>
-          <a href="#" class="text-white">Mentions légales</a>
-        </li>
-        <li>
-          <a href="#" class="text-white">A propos</a>
-        </li>
-        <li>
-          <a href="#" class="text-white">Contact</a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-
-      <ul class="list-unstyled mb-0 flex-column d-flex">
-        <li>
-          <div class="logofooter">
-            <img class="w-75" src="./static/logoiut.png" alt="">
-          </div>
-        </li>
-        <li>
-          <img class="w-50 ml-lg-2 mt-lg-2" src="./static/logommi.png" alt="">
-        </li>
-
-      </ul>
-    </div>
-
-  </div>
-</div>
-
-<div class="text-center p-2 text-white ">
-  <p>Ce site a été réalisé dans un cadre pédagogique.</p>
-</div>
-</footer>
 <script>
 export default {
   name: 'Offres',

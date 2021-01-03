@@ -154,6 +154,16 @@ export default {
 
 <style scoped>
 
+@media (max-width: 768px) {
+  h1{
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .btn{
+    margin-bottom: 15px;
+  }
+}
+
 .subtitles h5 {
   font-family: "Poppins ExtraBold", sans-serif;
   font-size: 25px;
